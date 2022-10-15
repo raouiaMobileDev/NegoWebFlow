@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:SelectorFunctions">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:invoke soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <provider xsi:type="xsd:string">Rawia </provider>
+         <serviceName xsi:type="xsd:string">Bouabdellah</serviceName>
+         <contributor xsi:type="xsd:string">Bouabdellah</contributor>
+         <protocol xsi:type="xsd:string">Bouabdellah</protocol>
+         <performative xsi:type="xsd:string">Bouabdellah</performative>
+     <!--      <data xsi:type="urn:string_aggregate_sequence">-->
+            <!--2 or more repetitions:-->
+            <string xsi:type="xsd:string">4</string>
+            <string xsi:type="xsd:string">5</string>
+            <string xsi:type="xsd:string">2</string>
+        <!--  </data> --> 
+      </urn:invoke>
+   </soapenv:Body>
+</soapenv:Envelope>

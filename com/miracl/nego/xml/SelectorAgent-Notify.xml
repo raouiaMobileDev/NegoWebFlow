@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:SelectorFunctions">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:notify soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+         <firstElement xsi:type="xsd:string">Rawia </firstElement>
+         <secondElement xsi:type="xsd:string">Bouabdellah</secondElement>
+      </urn:notify>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+
+
+
+	<!--  <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/> -->
+    <!--  Define a nonSSL HTTP/1.1 Connector on port 8180 -->
+	<!--  <Connector connectionTimeout="20000" port="8180" protocol="HTTP/1.1" redirectPort="8443"/> -->
